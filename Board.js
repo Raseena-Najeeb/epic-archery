@@ -7,7 +7,7 @@ class Board {
     this.body = Bodies.rectangle(x, y, width, height, options);
     this.width = width;
     this.height = height;
-    this.image = loadImage("./assets/board.png");
+    this.image = loadImage("board.png");
 
     World.add(world, this.body);
   }
